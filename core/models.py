@@ -11,7 +11,7 @@ class ModelBase(models.Model):
         null=True, blank=True,
         verbose_name='Created at'
     )
-    modified_at = models.DateTimeFiel(
+    modified_at = models.DateTimeField(
         db_column='dt_modified',
         auto_now=True,
         null=True,
